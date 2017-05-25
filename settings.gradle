@@ -1,0 +1,8 @@
+rootProject.name = 'spring-cloud-in-action'
+include 'config'
+include 'discovery'
+include 'person'
+include 'some'
+include 'monitor'
+include 'ui'
+
