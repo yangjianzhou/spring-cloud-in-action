@@ -12,8 +12,8 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableFeignClients
 @EnableCircuitBreaker
 @EnableZuulProxy
-public class UiApplication {
+public class UIApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UiApplication.class, args);
+        SpringApplication.run(UIApplication.class, args);
     }
 }

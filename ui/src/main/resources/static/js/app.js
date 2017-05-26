@@ -39,7 +39,7 @@ uiApp.controller("SomeController", function ($scope, $http) {
     $scope.errorMessage = "";
 
     $scope.getSome = function () {
-        $http.get('/getsome').success(function (data) {
+        $http.get('/getSome').success(function (data) {
             $scope.str = data;
             $scope.errorMessage = "";
         }).error(function () {

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class UiController {
+public class UIController {
     @Autowired
     private SomeHystrixService someHystrixService;
 
@@ -24,7 +24,7 @@ public class UiController {
         return personHystrixService.save(personName);
     }
 
-    @RequestMapping(value = "/getsome", produces = {MediaType.TEXT_PLAIN_VALUE})
+    @RequestMapping(value = "/getSome", produces = {MediaType.TEXT_PLAIN_VALUE})
     public String getSome() {
         return someHystrixService.getSome();
     }
